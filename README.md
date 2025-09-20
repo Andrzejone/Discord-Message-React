@@ -27,6 +27,6 @@ Explanation:
   Will result in only specified users messages to be reacted to. Rest of users will be ignored.
 If you do not want use this functions or part of it, just simply put "#" on the beginning of line.
 Exampple:
-# AUTHOR_FILTERS= will cause code to ignore this function even If you already added here some IDs, and work in default mode.
+#AUTHOR_FILTERS= will cause code to ignore this function even If you already added here some IDs, and work in default mode.
 
 You can specify many channels IDs and users IDs but dont make it too much, http request spam can trigger reate limiting (or just make random delay seconds higher)
